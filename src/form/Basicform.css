@@ -1,0 +1,90 @@
+
+body{
+    background-color: rgb(166, 158, 167);
+}
+
+
+form{
+    width: 40%;
+    
+    background-color: #add5df;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.2), 5px 0 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.fields{
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.fields input{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 8px;
+}
+.fields label{
+    /* border: 2px solid green; */
+    font-size: 20px;
+}
+.fields button{
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: rgb(45, 197, 96);
+    margin:20px;
+    margin-left: 0px;
+    outline: none;
+    border-radius: 10px;
+    border:2px solid grey;
+    font-size: 20px;
+}
+
+
+
+
+.tablecontainer{
+    border: 2px solid red;
+    margin: auto;
+}
+
+/* .search{
+    border: 2px solid red;
+
+} */
+.search input , select{
+    /* border: 2px solid green; */
+    position: relative;
+    left: 270px;
+    top: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    background-color: rgb(147, 181, 185);
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.pagination button{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 275px;
+    top: 20px;
+    font-size: 20px;
+    /* margin: 10px ; */
+    padding: 5px;
+}
